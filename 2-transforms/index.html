@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		* {
+			border: 1px solid red;
+		}
+		.container {
+			margin-right:auto; 
+			margin-left:auto;
+			font-size: 0; 
+		}
+		.box {
+			height: 150px;
+			width: 250px;
+			border: 2px solid black;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			margin-top: 10px;
+			font-size: 25px;
+			font-family: courier;
+			border-radius: 10px;
+			text-align: center;
+			margin-right:auto; 
+			margin-left:auto;
+			line-height: 130px;
+		}
+		#translated {
+			transform: translate(-100px, 0px);
+		}
+		#rotated {
+			transform: rotate(10deg);
+		}
+		#scaled {
+			transform: scale(2,.5);
+		}
+		#skewed {
+			transform: skew(5deg, 10deg);
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="theBox" class="box">Box</div>
+		<div id="translated" class="box">I am translated</div>
+		<div id="rotated" class="box">I am rotated</div>
+		<div id="scaled" class="box">I am scaled</div>
+		<div id="skewed" class="box">I am skewed</div>
+	</div>
+</body>
+</html>
